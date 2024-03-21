@@ -1,9 +1,10 @@
-let name = prompt("Ismingizni kiriting")
-let letter = prompt("Bironta harf kiriting").toLowerCase() .toUpperCase();
-let test = name.includes(letter) 
+let name1 = prompt("Ismingizni kiriyying!")
+let letter = prompt("Istagan harfni kiriting!")
 
-if (test) {
-    alert(name + " ismining ichida " + letter + " harfi mavjud emas")
-}else {
-    alert(name + " ismining ichida " + letter + " harfi mavjud")
-}
+let check = name1.toLowerCase().includes(letter.toLowerCase());
+
+if (check) {
+    alert("Siz kirtgan harf mavjud😃")
+} else (
+    alert("Siz kiritgan harf mavjud emas😞")
+)
